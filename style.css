@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #323232;
+    border-radius: 20px;
+    border: 2px solid #202020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: #161616;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202020;
+    height: 29rem;
+    width: 22rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    width: 20rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+    padding-top: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.fa-calculator {
+    padding-right: 0.6rem;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    background-color: #202020;
+    height: 3rem;
+    width: 18rem;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+button {
+    width: 5rem;
+    height: 4rem;
+    cursor: pointer;
+    background-color: #3B3B3B;
+    border: none;
+    color: white;
+    margin: 0.05rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.numb:hover {
+    background-color: #323232;
+}
+
+.calc {
+    background-color: #323232;
+}
+
+.calc:hover {
+    background-color: #3B3B3B;
+}
+
+#igual {
+    height: 8rem;
+    background-color: #4CC2FF;
+}
+
+#zero {
+    width: 10.2rem;
+}
+
+.developer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -4.5rem;
+    padding: 1.5rem 0rem;
+}
+    
+.developer p {
+    color: #3B3B3B;
+}
+
+.developer a {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.developer a:hover {
+    color: #4CC2FF;
+}
+
+#external-link {
+    font-size: 0.65rem;
+}
+
+@media (max-width: 650px) {
+
+    ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+        background: none;
+        background-color: none;
+        border-radius: none;
+        border: none;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    .calculadora {
+        height: 30.1rem;
+    }
+    
+    button {
+        margin: 3px;
+        width: 4.7rem;
+    }
+    
+}
