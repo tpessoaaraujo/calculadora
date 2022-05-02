@@ -1,7 +1,7 @@
 <h1>Calculadora</h1>
 <h2>Uma calculadora simples com as funções de adição, subtração, multiplicação e divisão.</h2>
 
-<p>Você pode acessar o projeto no ar <a href="https://tpessoaaraujo.github.io/calculadora/">clicando aqui</a>.
+<p>Você pode acessar o projeto no ar <a href="https://tpessoaaraujo.github.io/calculadora/" target="_blank">clicando aqui</a>.
 
 <h3>Tecnologias utilizadas no projeto:</h3>
   <div style="display: inline_block">
